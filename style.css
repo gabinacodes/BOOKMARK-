@@ -1,6 +1,7 @@
 body {
   font-family: 18px;
   font-family: "Rubik", sans-serif;
+  overflow: hidden;
 }
 
 img {
@@ -41,27 +42,19 @@ h6, h4 {
 
 .box, .boxx {
   height: 166px;
-  width: 94%;
+  width: 390px;
   position: relative;
-  /* margin-right: 20px; */
+  margin-right: -41px;
   background-color: #5368df;
-  left: 8%;
+  left: 84px;
   overflow: hidden;
   top: 321px;
   border-bottom-left-radius: 113px;
 }
-.div121{
-  position: relative;
-  top: 806px;
-}
-img.img6 {
-  position: absolute;
-  top: -132px;
-  width: 100%;
-}
+
 .boxx {
   margin-right: 0;
-  left: -22px;
+  left: -64px;
   border-bottom-right-radius: 113px;
   border-bottom-left-radius: 0;
   top: -11px;
@@ -98,7 +91,7 @@ img.img6 {
 
 .div15 {
   line-height: 33px;
-  padding: 3px 5%;
+  padding: 3px 54px;
 }
 
 .a1:hover {
@@ -120,7 +113,7 @@ img.img6 {
   display: block;
   text-align: center;
   border-top: 2px solid lightgray;
-  padding: 15px 12%;
+  padding: 15px 127px;
   /* padding: 0 100%; */
   width: 100%;
   background: white;
@@ -143,7 +136,8 @@ img.img6 {
   text-align: center;
   margin: 43px 0;
 }
-.btn1, .btn2, .btn5 {
+
+.btn1, .btn2 {
   padding: 15px;
   border-radius: 7px;
   -webkit-box-shadow: 1px 5px 6px 0px lightgray;
@@ -154,19 +148,10 @@ img.img6 {
   border-color: rgba(211, 211, 211, 0);
   margin: 6px;
 }
-.btn5{
-  padding-top: 15px;
-  padding-right: 15%;
-  padding-bottom: 15px;
-  padding-left: 15%;
-}
+
 .div3 {
   width: 95%;
   margin-bottom: 45px;
-}
-.btn5:hover {
-  background-color: #5368df;
-  color: white;
 }
 
 .btn2:hover {

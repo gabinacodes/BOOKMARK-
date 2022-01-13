@@ -8,6 +8,7 @@ $myfont: 'Rubik', sans-serif;
 body {
  font-family: 18px;
  font-family: $myfont;
+ overflow: hidden;
 }
 img{
     width: 100%;
