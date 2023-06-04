@@ -1,8 +1,7 @@
 body {
   font-family: 18px;
   font-family: "Rubik", sans-serif;
-  overflow: hidden;
-}
+ }
 
 img {
   width: 100%;
@@ -41,14 +40,14 @@ h6, h4 {
 }
 
 .box, .boxx {
-  height: 106px;
-  width: 91.5%;
+  height: 166px;
+  width: 390px;
   position: relative;
   margin-right: -41px;
   background-color: #5368df;
-  left: 34px;
+  left: 84px;
   overflow: hidden;
-  top: 254px;
+  top: 321px;
   border-bottom-left-radius: 113px;
 }
 
