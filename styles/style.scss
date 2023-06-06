@@ -184,3 +184,12 @@ header{
     position: absolute;
     left: -8px;
 }
+@media screen and (min-width : 900px) {
+    .close ,.ham {
+        display: none;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+}
