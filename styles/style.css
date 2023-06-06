@@ -3,9 +3,7 @@ body {
   font-family: "Rubik", sans-serif;
  }
 
-img {
-  width: 100%;
-}
+
 
 .logo {
   width: 45%;
@@ -177,12 +175,15 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%;
+  margin: -8px -8px;
+  padding: 36px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0%;
+  background-color: white;
 }
 
 .ham {
@@ -218,7 +219,7 @@ header {
   }
   .nav,.btn{
       display:inline;
-      margin: 0 30px;
+      margin: 0 2px 0 30px;
       align-items: center;
      
   }
@@ -227,5 +228,44 @@ header {
     display: inline;
     margin-left: 26px;
   }
+  .div1{
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h6,h4, p{
+    text-align: left;
+  }
+  .div3 {
+    margin-bottom: -16px;
+    padding: 37px;
+}
+.div2 {
+  position: relative;
+  top: 36px;
+  width: 45%;
+}
+.div5 {
+  text-align: center;
+  margin: 26px 36px;
+  float: left;
+}.box{
+  height: 205px;
+  width: 397px;
+}
+.img1{
+  width: 84vh;
+  position: absolute;
+    left: -68px;
+    top: 155px;
+}.div6 {
+  position: relative;
+  right: 170px;
+
+}
+.div4{
+  text-align: left;
+  padding: 2px 8%;
+}
 }
 /*# sourceMappingURL=style.css.map */
